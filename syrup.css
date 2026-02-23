@@ -1,0 +1,75 @@
+@font-face {
+	font-family: "DroidSans";
+	src: url("DroidSans.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+			
+body {
+	font-family: "DroidSans", sans-serif;
+}
+
+* {
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+h1, h2, h3 {
+	font-family: "Tahoma", sans-serif;
+}
+
+a {
+	color: #00bb00;
+}
+
+button {
+	font-family: "DroidSans", sans-serif;
+	border-radius: 0px;
+	border: 2px solid;
+	border-image: linear-gradient(to top, #ececec, #acacac) 1;
+	background: linear-gradient(to bottom, #fcfcfc, #bcbcbc);
+}
+
+select, option {
+	font-family: "DroidSans", sans-serif;
+	border-radius: 0px;
+	border: 2px solid;
+	border-image: linear-gradient(to top, #ececec, #acacac) 1;
+	background: linear-gradient(to bottom, #fcfcfc, #bcbcbc);
+}
+
+button:hover {
+	font-size: 13px;
+	background: linear-gradient(to bottom, #bcbcbc, #fcfcfc);
+	cursor: pointer;
+}
+
+input {
+	font-family: "DroidSans", sans-serif;
+	border-radius: 0px;
+	border: 2px solid;
+	border-image: linear-gradient(to top, #ececec, #cccccc) 1;
+	background: linear-gradient(to bottom, #fcfcfc, #ececec);
+}
+
+textarea {
+	font-family: "DroidSans", sans-serif;
+	border-radius: 0px;
+	border: 2px solid;
+	border-image: linear-gradient(to top, #ececec, #cccccc) 1;
+	background: linear-gradient(to bottom, #fcfcfc, #ececec);
+}
+
+#srwindow {
+	background: linear-gradient(to bottom, #fcfcfc, #ececec);
+	min-width: 200px;
+	width: 300px;
+	min-height: 150px;
+}
+
+.srwindow-titlebar {
+	color: white;
+	display: flex;
+	align-items: center;
+	height: 20px;
+	background: linear-gradient(to bottom, #00cc00, #00aa00);;
+}
